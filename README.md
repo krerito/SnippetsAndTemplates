@@ -17,7 +17,7 @@ Within each of these directories, you may find a variety of files organized by f
 Clone the repository to your local machine:
 
 ```bash
-git clone [repository URL]
+git clone https://github.com/krerito/SnippetsAndTemplates
 ```
 
 Navigate to the folder of the language or framework you're interested in and consult the specific `README.md` (if available) for installation and usage instructions.
