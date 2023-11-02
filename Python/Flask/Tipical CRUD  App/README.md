@@ -14,7 +14,7 @@ This project is a typical Create, Read, Update, Delete (CRUD) application using 
 
 - `app.py`: The Flask application's main script, which contains the logic for database connection, routing, and CRUD operations.
 - `Templates`:
-  - `index.html`: A Bootstrap-styled HTML template for displaying the data entry form and the data table.
+- `index.html`: A Bootstrap-styled HTML template for displaying the data entry form and the data table.
 
 ## Setup
 
@@ -35,11 +35,3 @@ Visit `http://localhost:5000` in your browser to view the application.
 
 - Fill out the form with the details of a new record and submit.
 - View the updated list of records in the data table below the form.
-
-## Contributing
-
-Contributions are welcome. Feel free to fork the repository, make your changes, and create a pull request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE.md).
