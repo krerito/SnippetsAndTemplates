@@ -1,0 +1,20 @@
+
+**** Log file opened at 2023-10-23 13:15:14.513764 UTC-07:00 (US Mountain Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12
+Compilation date          : Jul  7 2023 22:54:54
+CPIC library              : 753.2023.07.06 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1216
+Current working directory : C:\Users\kerim.cisneros\Desktop\All Web Projects\app\atematic
+Program                   : python
+Process ID                : 24856
+User                      : kerim.cisneros
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 186 Step 3)
+Operating_system          : Windows NT 10.0
+Hostname                  : ATEM511-118DLS3
+IP address                : 172.16.5.235
+IPv6 address              : fe80::169:91b4:60ec:79dd
+Global trace level        : 0
+
+2023-10-23 13:15:14.495563 [15828] >> Info entry
+	Did not find config file C:\Users\kerim.cisneros\Desktop\All Web Projects\app\atematic\sapnwrfc.ini.

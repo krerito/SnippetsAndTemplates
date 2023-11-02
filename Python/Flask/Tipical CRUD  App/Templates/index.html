@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Data Table</h2>
+
+    <form method="POST">
+        <div class="mb-3">
+            <label for="ID_song" class="form-label">ID_song</label>
+            <input type="text" class="form-control" id="ID_song" name="ID_song">
+        </div>
+        <div class="mb-3">
+            <label for="songTitle" class="form-label">songTitle</label>
+            <input type="text" class="form-control" id="songTitle" name="songTitle">
+        </div>
+        <div class="mb-3">
+            <label for="songLyrics" class="form-label">songLyrics</label>
+            <textarea class="form-control" id="songLyrics" name="songLyrics"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="songRelation" class="form-label">songRelation</label>
+            <input type="text" class="form-control" id="songRelation" name="songRelation">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Record</button>
+    </form>
+
+    <!-- Data Table -->
+    <table class="table mt-5">
+        <thead>
+            <tr>
+                <th scope="col">ID_song</th>
+                <th scope="col">songTitle</th>
+                <th scope="col">songLyrics</th>
+                <th scope="col">songRelation</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+                <tr>
+                    <td>{{ row['ID_song'] }}</td>
+                    <td>{{ row['songTitle'] }}</td>
+                    <td>{{ row['songLyrics'] }}</td>
+                    <td>{{ row['songRelation'] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
