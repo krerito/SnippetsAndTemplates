@@ -15,7 +15,7 @@ This Flask application serves as an intermediary web interface, enabling users t
 - `flaskapp.py`: This is the main Flask application file. It sets up the web server and routes.
 - `sap.py`: Contains the `bapicall` function which handles the communication with the SAP system using RFC.
 - `Templates`: Holds the HTML templates required by Flask.
-  - `index.html`: The main template that renders the input form and displays the response.
+- `index.html`: The main template that renders the input form and displays the response.
 
 ## Getting Started
 
