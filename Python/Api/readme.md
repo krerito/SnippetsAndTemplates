@@ -70,4 +70,4 @@ This script is an effective alternative for users who face limitations from host
 Feel free to fork this project, make improvements, and submit pull requests.
 
 ## Postdata 
-Godaddy is trash, dont use it c:.
+GoDaddy is trash, dont use it c:.
