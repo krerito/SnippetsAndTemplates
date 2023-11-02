@@ -45,8 +45,4 @@ for tamaño, archivo in archivos_pesados:
 
 ## Contributing
 
-Suggestions and contributions are always welcome. Please feel free to fork the repository, make improvements, and submit pull requests.
-
-## License
-
-The project is available as open source under the terms of the [MIT License](LICENSE.md).
+Suggestions and contributions are always welcome. This is a Forensic File Size Analyzer , if you have any other template that may help people in this topic, please contact me  to create the push or, create a better system for help people with this.
